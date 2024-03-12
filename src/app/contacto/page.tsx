@@ -10,7 +10,7 @@ export default function App() {
       <div className=" w-1/2 rounded-lg h-96 flex flex-col items-center">
         <h1 className="font-bold text-2xl">Contactanos</h1>
         <form action="">
-          <div className="flex w-80 flex-col px-2 sm:px-0 flex-wrap md:flex-nowrap mb-6 md:mb-0 gap-10">
+          <div className="flex w-80 flex-col px-2 sm:px-0 flex-wrap md:flex-nowrap gap-10">
             <Input type="name" variant={"underlined"} color="primary" required label="Nombre" />
             <Input type="number" variant={"underlined"} color="primary" required label="Teléfono" />
             <Input type="email" variant={"underlined"} color="primary" required label="Email" />
