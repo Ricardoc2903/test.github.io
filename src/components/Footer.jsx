@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-      <div className="footer mt-10">
+      <div className="footer">
         <hr className=' dark:border dark:border-gray-600' />
         <div className="footer-content">
           <div className="contacto">
