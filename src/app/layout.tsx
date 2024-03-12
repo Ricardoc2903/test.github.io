@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es" className="light">
       <body>
         <Providers>
-          <div className=" h-screen">
+          <div>
             <Navbar />
             <main>
               {children}
