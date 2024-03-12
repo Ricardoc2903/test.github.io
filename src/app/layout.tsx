@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Providers>
           <div>
             <Navbar />
-            <main className=" mb-10">
+            <main>
               {children}
               <FloatingBtn />
             </main>

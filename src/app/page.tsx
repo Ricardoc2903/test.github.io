@@ -18,7 +18,7 @@ export default function HomePage() {
           <p className=" font-normal w-10/12 m-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi ipsa tempora nisi libero. Consequuntur ratione aut quibusdam! Earum,</p>
         </div>
 
-        <div className="flex flex-row flex-wrap gap-10 justify-center">
+        <div className="flex mb-10 flex-row flex-wrap gap-10 justify-center">
           <Card
             imagen={aire}
             titulo="Aires Acondicionados"
