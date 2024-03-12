@@ -18,9 +18,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es" className="light">
       <body>
         <Providers>
-          <div>
+          <div className=" h-screen">
             <Navbar />
-            <main>
+            <main className=" mb-10">
               {children}
               <FloatingBtn />
             </main>
