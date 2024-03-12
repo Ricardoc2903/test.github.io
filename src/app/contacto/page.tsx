@@ -6,7 +6,7 @@ export default function App() {
   const variants = ["flat", "bordered", "underlined", "faded"];
 
   return (
-    <div className="flex flex-col items-center mt-10 mb-32 sm:mb-0 h-screen">
+    <div className="flex flex-col items-center mt-10 mb-28 sm:mb-10 h-screen">
       <div className=" w-1/2 rounded-lg h-96 flex flex-col items-center">
         <h1 className="font-bold text-2xl">Contactanos</h1>
         <form action="">
