@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-content m-3 flex justify-evenly items-center">
           <div className="contacto flex flex-col items-center">
             <h1 className=' text-center text-primary-400 text-xl'>Contacto</h1>
-            <p>Numeros: 11 3323 5117 / 11 3323 3322</p>
+            <p>Números: 11 3323 5117 / 11 3323 3322</p>
             <a className=' hover:uppercase hover:text-primary-400' id="mail" href="mailto: fc.refrigeracion.fc@gmail.com">fc.refrigeracion.fc@gmail.com</a>
           </div>
           <div className="links flex flex-col items-center">

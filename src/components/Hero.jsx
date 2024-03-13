@@ -1,10 +1,6 @@
 import React from 'react'
 
 import { Button, Link } from "@nextui-org/react";
-import { MdOutlineWhatsapp } from "react-icons/md";
-
-
-
 import man from "@/images/mantenimiento1.jpg"
 
 import Image from "next/image"
@@ -19,7 +15,7 @@ export default function Hero() {
           <p className=' text-wrap'>Ofrecemos servicio técnico profesional de cámaras frigoríficas, heladeras domésticas y comerciales, aires acondicionados, lavarropas y secarropas. Trabajamos con todas las marcas. Nuestro trabajo cuenta con garantía, no dudes en llamarnos.</p>
           <div className="hero-btn mt-4 flex flex-col sm:flex-row justify-center gap-5">
             <Button as={Link} href="https://wa.link/7ofobc" className=' w-full xl:w-1/2' color="success">
-              <MdOutlineWhatsapp className=' w-8 h-6 m-0' />WhatsApp
+              WhatsApp
             </Button>
             <Button as={Link} className=' w-full xl:w-1/2' href='/contacto' color="primary" variant="bordered">
               Contactanos
