@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Button, Link } from "@nextui-org/react";
+
 import man from "@/images/mantenimiento1.jpg"
 
 import Image from "next/image"
