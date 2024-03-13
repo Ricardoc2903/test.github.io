@@ -14,7 +14,7 @@ export default function Hero() {
     <div>
       <div className="flex justify-center m-5 gap-10 mt-8">
         <div className="hero-text w-full sm:w-3/6">
-          <h1 className=' font-bold text-center text-lg'>Servicio Técnico Profesional</h1>
+          <h1 className=' font-bold text-center text-primary-400 text-lg'>Servicio Técnico Profesional</h1>
           <br />
           <p className=' text-wrap'>Ofrecemos servicio técnico profesional de cámaras frigoríficas, heladeras domésticas y comerciales, aires acondicionados, lavarropas y secarropas. Trabajamos con todas las marcas. Nuestro trabajo cuenta con garantía, no dudes en llamarnos.</p>
           <div className="hero-btn mt-4 flex flex-col sm:flex-row justify-center gap-5">

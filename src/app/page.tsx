@@ -14,8 +14,8 @@ export default function HomePage() {
         <Hero />
 
         <div className="flex flex-col items-center">
-          <h1 className=" mt-5 font-bold uppercase text-4xl">Servicios</h1>
-          <p className=" font-normal w-10/12 m-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi ipsa tempora nisi libero. Consequuntur ratione aut quibusdam! Earum,</p>
+          <h1 className=" mt-5 font-bold text-primary-400 uppercase text-4xl">Servicios</h1>
+          <p className=" text-lg text-center w-10/12 m-3">Aquí algunos de los servicios de los que ofrecemos.</p>
         </div>
 
         <div className="flex mb-10 flex-row flex-wrap gap-10 justify-center">
@@ -26,7 +26,7 @@ export default function HomePage() {
           />
           <Card
             imagen={free}
-            titulo="freezers"
+            titulo="Freezers"
             mensaje="Ofrecemos soluciones completas para la reparación y mantenimiento de freezers. Desde problemas con la temperatura hasta fallas en el sistema de descongelación, nuestros técnicos pueden diagnosticar y reparar eficientemente."
           />
           <Card

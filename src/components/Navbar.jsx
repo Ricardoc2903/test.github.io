@@ -9,7 +9,7 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <Navbar shouldHideOnScroll onMenuOpenChange={setIsMenuOpen} isBlurred>
+    <Navbar shouldHideOnScroll onMenuOpenChange={setIsMenuOpen} isBordered isBlurred>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
